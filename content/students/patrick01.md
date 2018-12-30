@@ -1,52 +1,95 @@
 ---
 
-# FILENAME : please use your OpenClassrooms's name, available in your url.
+
+# FILENAME : https://openclassrooms.com/fr/membres/patrickgansane
+
 # Example: https://openclassrooms.com/membres/celinemartinet
+
 # must be the name of your file. If file name is celinemartinet.md, title is celinemartinet.
+
 # lowercase, no blank space, Capital case or special character.
-title: tuxfanou
+
+title: patrick01
+
 
 # First name or full name
-name: Stephane
-date: 2017-11-10 19:55
+
+name: patrick gansane
+
+date: 2018-12-07 10:28
+
 
 # One line.
+
 # If you need more space, go to the next line and add 4 spaces on the left, as in 'description'.
-objective: Me mettre au developpement et me permettre plus de producivité au travail
-short_description: Après plusieurs années à chercher un langage qui me convient et qui me serait utilise, je me suis enfin mis au Python
+
+objective: Devenir developpeur web et epouser un nouvelle carrière
+
+short_description: Je m'appelle patrick. J'apprends à coder pour me satisfaire moi même et faire fasse au monde du travail.
+
 
 # don't touch that
+
 template: students
+
 description:
-    Je m'appelle Stéphane, j'habite en Irlande pour le travail et je viens tout juste de débuter le parcours de Développeur Python.
-    Ce parcours va me permettre de pouvoir contribuer à des projets existants et à en faire par moi même.
+
+    J'ai 23 ans et j'étais étudiant en segmi avant de rejoindre la communauté opensclassrooms. j'ai toujours aimer l'informatique bien que n'ayant pas auparavant eu le temps de m'y consacrer. A ce jour, grâce à vous je peux dire que je débute ma vocation.
+
 
 # image must be located in content/images/students
+
 # name should be the same as this file. Eg: celinemartinet.png
-image: ratus.jpg
+
+image: patrick01.jpg
+
 
 # Change this to True when you do you pull request.
+
 public: False
 
+
 # You need to keep the exact same structure for each new project.
+
 projects:
-  - title: Présentez-vous 
-    description: Une présentation de moi-même et un lien vers mon LinkedIn.
+
+  - title: Présentez-vous !
+
+    description: Patrick, 23 ans, nouvelle etudiant sur opensclassrooms en developpement web python.
+
     # Create a new repository for your images. Name it the same as your nickname and profile picture.
-    # Image must be here: content/students/yourrepo/project1.png
-    image: stephaneb/projet_1.png
-    link: https://www.linkedin.com/in/st%C3%A9phane-burdin-3160142a/
+
+    # Image must be here: content/students/patrick01/project1.png
+
+    image: patrick01/projet_1.png
+
+    link: https://www.linkedin.com/in/patrick-gansane-099082b0/
+
     # 'true' makes it fully available.
+
     # 'false' will add a black layer on the picture. IT WILL BE PUBLIC!
+
     finished: true
+
   - title: Intégrez la communauté !
+
     description: Modifier un projet Open Source pour comprendre le fonctionnement de Git, de Github et des pull requests. 
-    image: stephaneb/projet_2.png
-    link: https://github.com/tuxfanou/mybashrc
+
+    image: patrick01/projet_2.png
+
+    link: https://openclassrooms-student-center.github.io/presentation/students/patrick01.html
+
     finished: true
+
   - title: Aidez MacGyver à sortir !
+
     description: Création d’un jeu développé en Python et utilisant PyGame.
-    image: stephaneb/projet_3.png
-    link: https://github.com/tuxfanou/projet_3
+
+    image: patrick01/projet_3.png
+
+    link: https://www.github.com
+
     finished: false
+
+
 ---
